@@ -5,7 +5,7 @@ import joblib
 import logging
 import math as Math
 
-app = Flask(__name__, static_url_path='/static', static_folder='static')
+app = Flask(__name__, static_url_path='/static', static_folder='static', template_folder='docs')
 CORS(app)
 
 # Set up logging
